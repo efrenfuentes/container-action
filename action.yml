@@ -1,0 +1,6 @@
+name: "Efren's Github action"
+description: "Allows users to run a Github Action"
+author: "Efren Fuentes"
+runs:
+  using: "docker"
+  image: "Dockerfile"
