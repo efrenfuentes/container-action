@@ -7,5 +7,5 @@ RUN pip install --target=/app -r requirements.txt
 
 WORKDIR /app
 ENV PYTHONPATH /app
-RUN chmod +x /app/src/main/main.py
+RUN chmod +x /app/src/main.py
 CMD ["/app/src/main.py", "/app/_images.yml"]
